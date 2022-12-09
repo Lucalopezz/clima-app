@@ -14,7 +14,7 @@ const containerClima = document.querySelector("#clima-data");
 
 const containerErro = document.querySelector("#msg-erro");
 
-
+//eventos
 searchBtn.addEventListener("click", function(e){
     e.preventDefault();
     const cidade = cidadeInput.value;
